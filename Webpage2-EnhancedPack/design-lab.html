@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"><title>Design Lab — DG Graphics</title><link rel="stylesheet" href="styles/main.css"/></head><body>
+<div class="container">
+<header class="header"><img src="assets/DGlogo.jpg" class="logo"></header>
+<h1>Design Lab</h1>
+<p class="lead">Upload your artwork and preview it on a T-shirt mockup.</p>
+<div class="card">
+<input type="file" accept="image/*" id="upload"/>
+<div id="preview" style="margin-top:14px"></div>
+</div>
+<script>
+document.getElementById('upload').addEventListener('change', function(e){
+  var file = e.target.files[0];
+  if(!file) return;
+  var img = document.createElement('img');
+  img.style.maxWidth='320px';
+  img.style.borderRadius='8px';
+  img.src = URL.createObjectURL(file);
+  document.getElementById('preview').innerHTML='';
+  document.getElementById('preview').appendChild(img);
+});
+</script>
+<footer class="footer">Dgraphicsproduction@gmail.com • 832-289-5771</footer>
+</div></body></html>

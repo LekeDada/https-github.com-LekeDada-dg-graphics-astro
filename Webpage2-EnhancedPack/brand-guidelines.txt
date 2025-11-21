@@ -1,0 +1,17 @@
+DG Graphics Production — Brand Guidelines (Summary)
+
+Primary colors:
+- Dark Green: #0b4d1a
+- Accent Green: #16a085
+- Dark Background: #0b0f13
+- Neutral Light: #ffffff
+
+Typography:
+- Headline: Inter (800/600)
+- Body: Inter / system sans-serif
+
+Contact:
+Email: Dgraphicsproduction@gmail.com
+Phone: 832-289-5771
+Address: 6230 Wilcrest Dr, Houston, TX 77072
+Owner: Leke Dada
